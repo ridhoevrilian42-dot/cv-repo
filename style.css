@@ -1,0 +1,68 @@
+* { box-sizing: border-box; } 
+body { 
+     margin: 0;  
+     font-family: "Times New Roman", serif;  
+     font-size: 18px;  
+     line-height: 1.6; } 
+ 
+main {  
+    max-width: 760px;  
+    margin: 0 auto;  
+    padding: 60px 24px; } 
+ 
+header { 
+     border-bottom: 4px solid black; 
+      padding-bottom: 24px; } 
+ 
+h1 { 
+     font-size: 60px; 
+      margin: 0; } 
+ 
+.jabatan {  
+    font-size: 24px;  
+    font-style: italic; } 
+ 
+section {  
+    display: flex;  
+    padding: 24px 0;  
+    border-bottom: 1px solid black; } 
+ 
+section:last-child {  
+    border-bottom: none; } 
+ 
+h2 {  
+    font-size: 22px;  
+    margin: 0;  
+    width: 200px; } 
+ 
+section > div { flex: 1; } 
+ 
+p { margin: 0 0 6px 0; } 
+ 
+span { float: right; } 
+ 
+.bar {  
+    height: 10px;  
+    border: 1px solid black;  
+    margin-bottom: 16px; } 
+     
+.bar div {  
+    height: 100%;  
+    background: black; } 
+ 
+@media (max-width: 600px) { 
+  h1 { font-size: 40px; } 
+  section { display: block; } 
+  h2 { width: 100%; margin-bottom: 10px; } 
+}
+
+
+/* FOTO PROFIL */
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
